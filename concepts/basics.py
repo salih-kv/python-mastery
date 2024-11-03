@@ -11,6 +11,32 @@ print("Hello, World!")
 name = "Alice"       # string
 age = 25             # integer
 is_active = True     # boolean
+print('name length:', len(name))
+person_info = {
+    'firstname':'John', 
+    'lastname':'Doe', 
+    'country':'Germany',
+    'city':'Berlin'
+    }
+print('Person information: ', person_info)
+
+# Declaring multiple variables in one line
+
+first_name, last_name, country, age, is_married = 'John', 'Doe', 'England', 25, True 
+print(first_name, last_name, country, age, is_married)
+
+# Checking data types
+
+print(type(10))                  # Int
+print(type(3.14))                # Float
+print(type(1 + 3j))              # Complex
+print(type('Salih'))             # String
+print(type([1, 2, 3]))           # List
+print(type({'name':'Salih'}))    # Dictionary
+print(type({9.8, 3.14, 2.7}))    # Set
+print(type((9.8, 3.14, 2.7)))    # Tuple
+print(type(3 == 3))              # Bool
+print(type(3 >= 3))              # Bool
 
 # Python - List
 fruits = ["apple", "banana", "cherry"]
